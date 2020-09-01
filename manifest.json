@@ -1,0 +1,9 @@
+{
+  "name": "Roo Bell Makeup",
+  "short_name": "Roo Bell",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "/"
+}

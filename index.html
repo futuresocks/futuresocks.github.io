@@ -7,6 +7,7 @@
     <title>Roo Bell Makeup</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
+    <link rel="manifest" href="./manifest.json">
   </head>
   <body>
     <nav>
@@ -131,4 +132,11 @@
       </div>
     </section>
   </body>
+  <script>
+    if (!navigator.serviceWorker.controller) {
+        navigator.serviceWorker.register("/sw.js").then(function(reg) {
+            console.log("Service worker has been registered for scope: " + reg.scope);
+        });
+    }
+   </script>
 </html>

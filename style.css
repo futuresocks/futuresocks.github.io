@@ -4,9 +4,17 @@
   text-justify: inter-word;
 }
 
+#about-text {
+  padding-bottom: 20px;
+}
+
 #about-text-kit {
   display: flex;
   flex-direction: column;
+}
+
+#about-services-kit ul:first-of-type {
+  padding-bottom: 20px;
 }
 
 body {
@@ -152,7 +160,12 @@ strong {
     flex-direction: row;
   }
 
+  #about-services-kit ul:first-of-type {
+    padding-bottom: 0;
+  }
+
   #about-text {
+    padding-bottom: 0;
     width: 60%;
   }
 
